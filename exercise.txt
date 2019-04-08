@@ -1,0 +1,32 @@
+Loops
+- for
+- while
+
+range()
+for(init; cond; inc/dec) {
+	// Logic....
+}
+
+for var in range(10,20):
+    print(var)
+
+*
+**
+***
+****
+*****
+
+	*
+       ***
+      *****
+     *******
+    *********
+   ***********
+
+
+
+
+
+
+
+
