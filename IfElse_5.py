@@ -21,6 +21,13 @@ while chat:
         # print all the songs available in os.listdir() using a for loop
         # ask the number of song that user wants to play
         # find that index number and play that track
+        os.chdir("C:\\Users\\asus\\Music")
+        songs = os.listdir()
+        for i in range(len(songs)):
+            print(i+1,songs[i])
+        num = int(input("Enter the track number : "))
+        currentSong = songs[num-1]
+        os.startfile(currentSong)
     elif msg == "bye":
         print("Bye User")
         chat = False
