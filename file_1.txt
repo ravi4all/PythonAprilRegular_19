@@ -1,0 +1,8 @@
+File Handling
+
+Text   => r/w/a
+Binary => rb/wb/ab
+
+1. Open
+2. Read/Write
+3. Close
